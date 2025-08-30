@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilda Bistro - Gastronomía Mediterránea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Seletor de idiomas -->
+    <div class="language-selector">
+        <div class="language-flag active" data-lang="es">🇪🇸</div>
+        <div class="language-flag" data-lang="en">🇬🇧</div>
+        <div class="language-flag" data-lang="pt">🇵🇹</div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">HILDA</a>
+            <nav>
+                <ul>
+                    <li><a href="#home" data-translate="nav.home">Inicio</a></li>
+                    <li><a href="#about" data-translate="nav.about">Nosotros</a></li>
+                    <li><a href="#menu" data-translate="nav.menu">Menú</a></li>
+                    <li><a href="#reservations" data-translate="nav.reservations">Reservas</a></li>
+                    <li><a href="#contact" data-translate="nav.contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 data-translate="hero.title">HILDA BISTRO</h1>
+            <div class="hero-divider"></div>
+            <p data-translate="hero.subtitle">Experiencia gastronómica mediterránea con elegancia y sabor incomparables</p>
+            <a href="#reservations" class="btn" data-translate="hero.button">Hacer Reserva</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="about.title">SOBRE NOSOTROS</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-translate="about.subtitle">Un Viaje Gastronómico Mediterráneo</h3>
+                    <p data-translate="about.text1">Hilda Bistro nació de la pasión por la rica y diversa cocina del Mediterráneo. Nuestra chef, Hilda Mendes, aporta a cada plato la esencia de sus viajes por la región, combinando tradición e innovación.</p>
+                    <p data-translate="about.text2">En un ambiente elegante y acogedor, ofrecemos una experiencia gastronómica única, donde cada detalle es cuidadosamente pensado para proporcionar momentos memorables.</p>
+                    <p data-translate="about.text3">Nuestros ingredientes son seleccionados rigurosamente, priorizando productores locales y sabores auténticos que celebran la cultura mediterránea en su plenitud.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Interior del restaurante">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="menu.title">NUESTRO MENÚ</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3 data-translate="menu.item1.title">Mezze Mediterráneo</h3>
+                    <p data-translate="menu.item1.desc">Selección de entradas tradicionales: hummus, babaganush, tabule y queso seco con aceite de oliva y za'atar.</p>
+                    <span class="price">€ 18,00</span>
+                </div>
+                <div class="menu-item">
+                    <h3 data-translate="menu.item2.title">Pulpo a la Parrilla</h3>
+                    <p data-translate="menu.item2.desc">Pulpo tierno a la parrilla con aceite de oliva, hierbas aromáticas y batata asada, finalizado con limón siciliano.</p>
+                    <span class="price">€ 26,00</span>
+                </div>
+                <div class="menu-item">
+                    <h3 data-translate="menu.item3.title">Risotto de Mariscos</h3>
+                    <p data-translate="menu.item3.desc">Crema de risotto con gambas, calamares y vieiras, perfumado con azafrán y finalizado con parmesano.</p>
+                    <span class="price">€ 24,00</span>
+                </div>
+                <div class="menu-item">
+                    <h3 data-translate="menu.item4.title">Cordero Mediterráneo</h3>
+                    <p data-translate="menu.item4.desc">Pierna de cordero asada lentamente con hierbas provenzales, acompañada de verduras a la parrilla y couscous.</p>
+                    <span class="price">€ 32,00</span>
+                </div>
+                <div class="menu-item">
+                    <h3 data-translate="menu.item5.title">Moussaka Griega</h3>
+                    <p data-translate="menu.item5.desc">Berenjena, carne sazonada y salsa bechamel, horneados a la perfección. Una experiencia auténtica.</p>
+                    <span class="price">€ 21,00</span>
+                </div>
+                <div class="menu-item">
+                    <h3 data-translate="menu.item6.title">Baklava</h3>
+                    <p data-translate="menu.item6.desc">Postre clásico de hojaldre con nueces y miel, servido con helado de vainilla y pistacho.</p>
+                    <span class="price">€ 12,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservations" class="reservations">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="reservations.title">RESERVAS</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="reservation-form">
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="name" data-translate="reservations.name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="reservations.email">Correo Electrónico</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-translate="reservations.phone">Teléfono</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date" data-translate="reservations.date">Fecha</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time" data-translate="reservations.time">Hora</label>
+                        <input type="time" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests" data-translate="reservations.guests">Número de Personas</label>
+                        <select id="guests" required>
+                            <option value="1" data-translate="reservations.guest1">1 persona</option>
+                            <option value="2" data-translate="reservations.guest2">2 personas</option>
+                            <option value="3" data-translate="reservations.guest3">3 personas</option>
+                            <option value="4" data-translate="reservations.guest4">4 personas</option>
+                            <option value="5" data-translate="reservations.guest5">5 personas</option>
+                            <option value="6" data-translate="reservations.guest6">6 o más personas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-translate="reservations.message">Observaciones Especiales</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn" data-translate="reservations.button">Confirmar Reserva</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="contact.title">CONTACTO</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3 data-translate="contact.address">Dirección</h3>
+                    <p>Calle Mediterráneo, 123<br>Jardín de los Olivos<br>Barcelona, España</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3 data-translate="contact.phone">Teléfono</h3>
+                    <p>+34 934 567 890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3 data-translate="contact.email">Correo Electrónico</h3>
+                    <p>info@hildabistro.es</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <h3 data-translate="contact.hours">Horario de Atención</h3>
+                    <p data-translate="contact.hoursDetail">Martes a Jueves: 18h-23h<br>Viernes y Sábado: 18h-00h<br>Domingo: 12h-20h</p>
+                </div>
+            </div>
+            <div class="map">
+                <!-- Mapa seria incorporado aqui -->
+                <div style="width: 100%; height: 100%; background-color: #1a1a1a; display: flex; align-items: center; justify-content: center;">
+                    <p data-translate="contact.map">Mapa de ubicación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="copyright">
+                <p data-translate="footer.copyright">&copy; 2023 Hilda Bistro - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
